@@ -47,7 +47,7 @@ For example, `assets/aacmd/textures/models/armor/leather_1_layer_X.png`
 If you want to ignore the material name, use `IgnoreMaterial:1b` NBT on the item.
 
 For example, `assets/aacmd/textures/models/armor/1_layer_X.png` is the texture
- for armor items with CustomModelData valued 1 and ignored the material name.
+ for armor items with CustomModelData valued 1, layer X and ignored the material name.
 
 ## License
 
