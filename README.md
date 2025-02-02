@@ -36,6 +36,10 @@ Just install this mod to your "mods" folder, then start your game.
 
 Now you can use `CustomModelData` NBT on items.
 
+However, this NBT will just make the "missing texture" rendered if you
+ don't have a resource pack associated with the custom model data value
+ you uses.
+
 The texture path (in resource location format) just like vanilla armor texture path,
  but there are some changes:
 - Namespace changed to `aacmd`, the namespace of this mod.
