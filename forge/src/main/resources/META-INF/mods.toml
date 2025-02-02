@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/SNWCreations/AACMD/issues"
+license = "GNU AGPL v3"
+
+[[mods]]
+modId = "aacmd"
+version = "${version}"
+displayName = "AACMD"
+authors = "SNWCreations"
+description = '''
+Adds CustomModelData support for vanilla-like armor items
+'''
+#logoFile = ""
+
+[[dependencies.aacmd]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.aacmd]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.aacmd]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"

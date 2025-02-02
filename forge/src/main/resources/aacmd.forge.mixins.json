@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "snw.mods.aacmd.forge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "client.HumanoidArmorLayerMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
